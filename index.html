@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторна робота 2</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    table {
+	    width: 1000px;
+	    border-collapse:collapse;
+	    border-spacing:0;
+	    height: auto;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+    }
+    table, table td {
+	    border: 2px solid #000000;
+    }
+    table td {
+      padding: 0;
+	    width: 25%;
+	    height: 35px;
+    }
+    table tr:first-child {
+      background-color: #048f8f;
+      color: #8F3704;
+    }
+    table tr:nth-child(2) {
+      background-color: #f5f504;
+      color: #7B05F5;
+    }
+    table tr:first-child:hover {
+      background-color: #f5f504;
+      color: #7B05F5;
+    }
+    table tr:first-child:hover table.inner-table tr:first-child {
+      background-color: #f5f504;
+      color: #7B05F5;
+    }
+    table tr:nth-child(2):hover {
+      background-color: #048f8f;
+      color: #8F3704;
+    }
+    table.inner-table {
+      width: 100%;
+      border-collapse: collapse;
+      border: none;
+    }
+    table.inner-table td {
+      border: none;
+      width: 50%;
+      height: 35px;
+    }
+    table.inner-table td + td {
+      border-left: 2px solid #000000;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <table class="inner-table">
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+        <td rowspan="2">Маланін</td>
+        <td>Данило</td>
+        <td rowspan="2">Володимирович</td>
+      </tr>
+      <tr>
+        <td>ІМ-21</td>
+        <td>Лабораторна робота 2, варіант 4</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="3"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="target-1">
+    <div class="circle-outer-1"></div>
+    <div class="circle-inner-1"></div>
+    <div class="horizontal-line-1"></div>
+    <div class="vertical-line-1"></div>
+  </div>
+
+  <div class="target-2">
+    <div class="circle-outer-2"></div>
+    <div class="circle-inner-2"></div>
+    <div class="horizontal-line-2"></div>
+    <div class="vertical-line-2"></div>
+  </div>
+</body>
+</html>

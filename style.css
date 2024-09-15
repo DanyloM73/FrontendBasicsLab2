@@ -1,0 +1,91 @@
+.target-1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.circle-outer-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -90px;
+  margin-left: -90px;
+  width: 120px;
+  height: 120px;
+  border: 30px solid black;
+  border-radius: 50%;
+}
+
+.circle-inner-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -30px;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.horizontal-line-1,
+.vertical-line-1 {
+  position: absolute;
+  background-color: black;
+}
+
+.horizontal-line-1 {
+  top: 50%;
+  left: 0;
+  margin-top: -3px;
+  width: 100%;
+  height: 6px;
+}
+
+.vertical-line-1 {
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  width: 6px;
+  height: 100%;
+}
+
+.target-2 {
+  width: 200px;
+  height: 200px;
+  transform: translate(220px, -200px);
+}
+
+.circle-outer-2 {
+  width: 120px;
+  height: 120px;
+  border: 30px solid black;
+  border-radius: 50%;
+  transform: translate(10px, 10px);
+}
+
+.circle-inner-2 {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+  transform: translate(70px, -110px);
+}
+
+.horizontal-line-2,
+.vertical-line-2 {
+  background-color: black;
+}
+
+.horizontal-line-2 {
+  width: 100%;
+  height: 6px;
+  transform: translate(0, -143px);
+}
+
+.vertical-line-2 {
+  width: 6px;
+  height: 100%;
+  transform: translate(97px, -246px);
+}
